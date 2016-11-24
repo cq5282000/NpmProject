@@ -1,0 +1,27 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "this is npm-react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cq5282000/NpmProject.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "chenqu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cq5282000/NpmProject/issues"
+  },
+  "homepage": "https://github.com/cq5282000/NpmProject#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
