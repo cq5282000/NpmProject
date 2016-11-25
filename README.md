@@ -88,5 +88,12 @@ To installed Babel for offline conversion:
 $ npm install --save babel-preset-react
 ```
 
+## run the project
 
+to run the project, run order:
 
+```bash
+$ webpack-dev-server
+```
+
+then click the link <a href="127.0.0.1:8080"></a>,you will see 'Hello World' in the browser.
