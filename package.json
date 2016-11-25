@@ -4,7 +4,9 @@
   "description": "this is npm-react project",
   "main": "index.js",
   "scripts": {
-    "test": "npm run dev"
+    "test": "npm run dev",
+    "dev": "webpack-dev-server --devtool eval --progress --colors",
+    "deploy": "NODE_ENV=production webpack -p"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,11 @@
   "dependencies": {
     "babel-preset-react": "^6.16.0",
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-dom": "^15.4.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.3"
   }
 }
