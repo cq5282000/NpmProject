@@ -96,4 +96,4 @@ to run the project, run order:
 $ webpack-dev-server
 ```
 
-then visit the link 127.0.0.1:8080,you will see 'Hello World' in the browser.
+then visit the link 127.0.0.1:8080,you will see 'Hello World' in the browser..
